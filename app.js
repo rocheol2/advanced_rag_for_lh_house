@@ -17,7 +17,7 @@
 
 // ----- 설정값 -----------------------------------------------
 const SUPABASE_URL = "https://uhvvyqxqcwwjnlmimcit.supabase.co";
-const SUPABASE_ANON_KEY = "PASTE_YOUR_SUPABASE_ANON_KEY"; // ★ 배포 전에 anon(publishable) 키로 교체
+const SUPABASE_ANON_KEY = "sb_publishable_LTz9CgFSxdA1pVLtLm010g_jqcBpvZy"; // 공개용(publishable) 키 — RLS로 읽기 전용
 
 const EMBED_MODEL = "embed-multilingual-v3.0"; // Cohere 임베딩 모델 (1024차원)
 const RERANK_MODEL = "rerank-v3.5";            // Cohere Rerank 모델
