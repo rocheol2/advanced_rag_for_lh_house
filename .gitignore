@@ -2,6 +2,7 @@
 .env
 .env.*
 *.key
+Cohere 및 Openrouter.txt
 
 # Python
 __pycache__/

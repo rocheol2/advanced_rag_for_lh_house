@@ -13,7 +13,7 @@
     <header class="page-header">
       <h1>🏠 주거복지 FAQ 질의응답 서비스</h1>
       <p class="subtitle">
-        마이홈포털의 주거복지 관련 자주 묻는 질문(FAQ) — 임대주택 · 공공분양 · 주택금융 · 공공기숙사 —
+        마이홈포털의 주거복지 관련 자주 묻는 질문(FAQ) — 임대주택 · 주거급여 · 주택금융 · 공공분양 · 공공기숙사 —
         을 기반으로 질문에 답변합니다.
         Supabase에서 관련 FAQ를 검색한 뒤, Cohere Rerank로 재정렬하고,
         OpenRouter의 Gemini 모델로 답변을 생성하는 Advanced RAG 서비스입니다.
@@ -56,6 +56,7 @@
       <div class="example-questions">
         예시:
         <button class="example-btn" onclick="setExample(this)">디딤돌대출 우대금리 요건은?</button>
+        <button class="example-btn" onclick="setExample(this)">주거급여 지원 대상은 누구인가요?</button>
         <button class="example-btn" onclick="setExample(this)">행복주택 입주 자격이 궁금해요</button>
         <button class="example-btn" onclick="setExample(this)">다자녀 특별공급에서 태아도 자녀로 인정되나요?</button>
       </div>
